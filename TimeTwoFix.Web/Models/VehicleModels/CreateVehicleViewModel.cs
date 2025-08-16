@@ -8,7 +8,7 @@ namespace TimeTwoFix.Web.Models.VehicleModels
 
         [Required]
         [StringLength(17, MinimumLength = 17)]
-        [RegularExpression(@"^[A-HJ-NPR-Z0-9]{17}$", ErrorMessage = "VIN format is not valide.")]
+        [RegularExpression(@"^[A-HJ-NPR-Z0-9]{17}$", ErrorMessage = "VIN format is not valid.")]
         public string Vin { get; set; }
 
         public string Brand { get; set; }

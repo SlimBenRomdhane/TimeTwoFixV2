@@ -12,6 +12,6 @@ namespace TimeTwoFix.Web.Models.WorkOrderModels
 
         OnHold,   // Temporarily paused, waiting for parts or customer response     
         Paused, // Temporarily stopped, but not cancelled, can be resumed later
-        Cancelled,    // Generally by teh customer or admin 
+        Cancelled,    // Generally by the customer or admin
     }
 }

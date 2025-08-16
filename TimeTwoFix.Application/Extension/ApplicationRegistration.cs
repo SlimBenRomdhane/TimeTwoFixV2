@@ -25,7 +25,7 @@ namespace TimeTwoFix.Application.Extension
             services.AddScoped<IClientServices, ClientService>();
             services.AddScoped<IVehicleService, VehicleService>();
             services.AddScoped<IAppointmentService, AppointmentService>();
-            services.AddScoped<ILiftingBridgeServices, LifitingBridgeServices>();
+            services.AddScoped<ILiftingBridgeServices, LiftingBridgeServices>();
             services.AddScoped<ICategoryService, CategoryService.Services.CategoryService>();
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IWorkOrderService, WorkOrderService.Services.WorkOrderService>();

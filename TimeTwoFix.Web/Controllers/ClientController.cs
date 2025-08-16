@@ -48,7 +48,7 @@ namespace TimeTwoFix.Web.Controllers
             {
 
 
-                TempData["ClientError"] = "An Error occured while loading clients";
+                TempData["ClientError"] = "An Error occurred while loading clients";
                 return View(Enumerable.Empty<ReadClientViewModel>());
             }
 
